@@ -16,6 +16,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -25,7 +26,7 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.3/dist/iconify-icon.min.js"></script>
 
     <!-- Remove this and fill in your name & photo in the required areas -->
-    <script>
+    <!-- <script>
       fetch('https://randomuser.me/api/?inc=name,picture')
         .then((response) => response.json())
         .then(({ results }) => results[0])
@@ -37,13 +38,13 @@
           document.title = `${name.first} ${name.last} Personal Site`
           document.querySelector('#profilepic').src = picture.large
         })
-    </script>
+    </script> -->
 
     <link href="styles/theme.css" rel="stylesheet" />
     <link href="styles/styles.css" rel="stylesheet" />
 
     <!-- Set Page Title Here -->
-    <title></title>
+    <title>Roberto Luna</title>
   </head>
 
   <body>
@@ -82,6 +83,16 @@
                 >Contact</a
               >
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Want to see my dogs?
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Marlin">Marlin</a></li>
+                <li><a class="dropdown-item" href="#Dakota">Dakota</a></li>
+                <li><a class="dropdown-item" href="#Delta">Delta</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -91,10 +102,10 @@
       id="home"
     >
       <div
-        class="rounded-circle border border-3 border-primary p-1 mb-3 mt-0 mt-lg-5"
-      >
+        class="rounded-circle border border-3 border-primary p-1 mb-3 mt-0 mt-lg-5">
       <!-- Set Photo Here -->
         <img
+          src="images/RLpic.jpg"
           style="height: 150px; width: 150px"
           class="rounded-circle"
           draggable="false"
@@ -105,7 +116,7 @@
         <h4 class="h1 font-weight-bold mx-auto text-center">
           <!-- Set Name Here -->
           Hi <iconify-icon icon="twemoji:waving-hand"></iconify-icon> I'm
-          <span id="name"></span>!
+          <span id="name">Roberto Luna</span>!
         </h4>
       </div>
       <div class="row mx-auto">
@@ -116,14 +127,6 @@
       <div class="row my-4 language-wrapper row-gap-5 col-gap-1 gap-lg-2">
         <div class="col text-center">
           <img
-            src="images/python.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Python"
-          />
-        </div>
-        <div class="col text-center">
-          <img
             src="images/angular.jpg"
             data-bs-toggle="tooltip"
             data-placement="top"
@@ -132,10 +135,10 @@
         </div>
         <div class="col text-center">
           <img
-            src="images/typescript.jpg"
+            src="images/JavaScript.jpg"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="TypeScript"
+            title="JavaScript"
           />
         </div>
 
@@ -180,14 +183,6 @@
             title="Microsoft SQL Server"
           />
         </div>
-        <div class="col text-center">
-          <img
-            src="images/mongodb.jpg"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="MongoDB"
-          />
-        </div>
       </div>
 
       <div class="row mt-3 mt-lg-5 next">
@@ -212,7 +207,7 @@
         </h5>
       </div>
       <div class="row w-100">
-        <h5>Inspiro for Esperanza</h5>
+        <h5>Luver Cars - Sales</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
@@ -225,21 +220,9 @@
           Vestibulum at porta lectus, sed faucibus libero.
         </p>
       </div>
+      
       <div class="row w-100">
-        <h5>Work From Home Pinterest</h5>
-      </div>
-      <div class="row w-100 mb-4">
-        <p class="text-justify">
-          Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non
-          ex dapibus finibus. Nulla facilisi. Integer eu libero lorem.
-          Pellentesque eget pretium ligula. Donec finibus nibh sed leo dapibus
-          imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit
-          dolor, ac mollis risus. Vestibulum commodo turpis nulla, bibendum
-          varius urna dictum porta.
-        </p>
-      </div>
-      <div class="row w-100">
-        <h5>Query Dating Site</h5>
+        <h5>GenEd Discovery</h5>
       </div>
       <div class="row w-100">
         <p class="text-justify">
@@ -271,7 +254,7 @@
       </div>
       <div class="row mx-auto mb-4">
         <h5 class="h5 mx-auto text-center text-primary text-opacity-75">
-          Not as tasty as a main course, but close.
+          
         </h5>
       </div>
       <div class="row w-100 justify-content-center my-3 gap-4">
@@ -344,11 +327,11 @@
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-opacity-75 text-primary text-center">
-          I don't bite.
+          Contact me!
         </h5>
       </div>
       <div class="row my-4 contact-wrapper gap-3">
-        <a href="mailto:johndoe@gmail.com" class="col text-black">
+        <a href="mailto:tuk54604@temple.edu" class="col text-black">
           <iconify-icon
             icon="logos:google-gmail"
             width="60"
@@ -358,7 +341,7 @@
             title="Email"
           ></iconify-icon>
         </a>
-        <a href="https://www.linkedin.com/in/johndoe/" class="col"
+        <a href="https://www.linkedin.com/in/roberto-luna-04aa9417b" class="col"
           ><iconify-icon
             icon="skill-icons:linkedin"
             width="60"
@@ -368,7 +351,7 @@
             title="LinkedIn"
           ></iconify-icon>
         </a>
-        <a href="https://github.com/johndoe" class="col"
+        <a href="https://github.com/RobLuna20" class="col"
           ><iconify-icon
             icon="skill-icons:github-dark"
             width="60"
@@ -378,6 +361,70 @@
             title="GitHub"
           ></iconify-icon>
         </a>
+      </div>
+      <div class="row mt-5">
+        <div>
+          <a href="#home">
+            <button type="button" class="btn btn-primary">
+              Return to Top<iconify-icon
+                icon="material-symbols:arrow-circle-up"
+                class="fs-5"
+                style="margin-bottom: -3.5px; margin-left: 5px"
+              ></iconify-icon></button
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DOG-MARLIN SECTION-->
+    <div
+      class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
+      id="Marlin"
+    >
+      <div class="row mx-auto">
+        <h1 class="h1 font-weight-bold mx-auto text-center">
+          Marlin
+        </h1>
+      </div>
+      <div class="row mx-auto">
+        <h5 class="h5 mx-auto text-opacity-75 text-primary text-center">
+          I love food.
+        </h5>
+        <img src="images/IMG_1740.jpg" class="img-rounded" alt="..." width="304" height="300">
+      </div>
+    </div>
+    <!-- DOG-Dakota SECTION-->
+    <div
+      class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
+      id="Dakota"
+    >
+      <div class="row mx-auto">
+        <h1 class="h1 font-weight-bold mx-auto text-center">
+          Dakota
+        </h1>
+      </div>
+      <div class="row mx-auto">
+        <h5 class="h5 mx-auto text-opacity-75 text-primary text-center">
+          I'm better than Messi.
+        </h5>
+        <img src="images/IMG_1714.jpg" class="rounded mx-auto d-block" alt="..." width="304" height="450">
+      </div>
+    </div>
+    <!-- DOG-Delta SECTION-->
+    <div
+      class="container section min-vh-100 d-flex justify-content-center flex-column align-items-center"
+      id="Delta"
+    >
+      <div class="row mx-auto">
+        <h1 class="h1 font-weight-bold mx-auto text-center">
+          Delta
+        </h1>
+      </div>
+      <div class="row mx-auto">
+        <h5 class="h5 mx-auto text-opacity-75 text-primary text-center">
+          I was rescued last year and I love my new siblings.
+        </h5>
+        <img src="images/IMG_1466.jpg" class="rounded mx-auto d-block" alt="..." width="280" height="550">
       </div>
       <div class="row mt-5">
         <div>
